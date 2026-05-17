@@ -1,4 +1,4 @@
-# Windows 8.1 Debloater
+# 8Debloat
 
 :warning: Use this at your own risk!
 
