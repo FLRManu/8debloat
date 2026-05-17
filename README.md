@@ -21,15 +21,7 @@
 * Finally, you can restart your computer by running `shutdown /r /t 0` .
 
 
-# Performance - Before the script
 
-![vmware_egiE6OlOL5](https://user-images.githubusercontent.com/78772453/204083611-7f2442fc-93a0-460d-93e9-1fb1c1b6501f.png)
-
-![vmware_nG4wO3zhzo](https://user-images.githubusercontent.com/78772453/204083613-67f7ad00-4b16-4fd7-a6ce-424474b4269a.png)
-
-![vmware_aX7sqlivLL](https://user-images.githubusercontent.com/78772453/204083615-381d30ba-ef66-44b5-9cf7-253dd12826d1.png)
-
-# Performance - After the script
 
 ![vmware_fg5AfpkuUI](https://user-images.githubusercontent.com/78772453/204083125-67233f18-1720-442e-99e3-ab025782c085.png)
 
