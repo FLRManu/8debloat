@@ -1,30 +1,70 @@
-# 8Debloat
+8Debloat (Español)
+
+:warning: ¡Usa esto bajo tu propio riesgo!
+
+:warning: ¡Haz una copia de seguridad de tus cosas antes de continuar!
+
+# Componentes Modificados/Optimizados:
+
+Telemetría y Recolección de Datos (CEIP/Autologgers)
+
+Informes de Errores de Windows (WER)
+
+Windows Update (Deshabilitado de forma segura)
+
+Servicios de Fondo Pesados e Innecesarios
+
+Tareas Programadas de Mantenimiento Ocultas
+
+Animaciones de Interfaz y Esquinas Activas (Hot Corners)
+
+
+# ¿Cómo ejecutar?
+
+Abre una terminal de PowerShell con privilegios de administrador.
+
+Copia y ejecuta el siguiente comando universal para iniciar el script directamente en memoria sin descargar archivos manuales:
+`iex (New-Object Net.WebClient).DownloadString('https://github.com/FLRManu/8debloat/releases/latest/download/8Debloat.ps1')`
+
+
+Selecciona la opción 1 para el idioma español dentro del menú interactivo.
+
+Elige las optimizaciones individuales que prefieras o utiliza la opción 10 para aplicar todo el ciclo de limpieza recomendado de forma secuencial.
+
+Finalmente, puedes reiniciar tu computadora para aplicar todos los cambios ejecutando el comando `shutdown /r /t 0` .
+
+8Debloat (English)
 
 :warning: Use this at your own risk!
 
 :warning: Backup your stuff before running!
 
-# Disabled/Broken Items
+# Modified/Optimized Items:
 
-* Windows Defender
-* AppX Packages
-* Windows Update
-* Microsoft Account
+Telemetry & Data Collection (CEIP/Autologgers)
 
-# How to run
+Windows Error Reporting (WER)
 
-* Download `Windows_8.1_Debloat.ps1` from this Github repository.
-* Open a PowerShell terminal with administrative privileges.
-* Before running the script, you may need to allow unsigned scripts. This can be done using the command `Set-ExecutionPolicy -ExecutionPolicy Unrestricted` . Be aware that this policy is a security risk.
-* You can then run the script by locating it and typing `Windows_8.1_Debloat.ps1`. It takes a few minutes to run.
-* After running the script, you can recover your execution policy by typing `Set-ExecutionPolicy -ExecutionPolicy Default` .
-* Finally, you can restart your computer by running `shutdown /r /t 0` .
+Windows Update (Safely disabled)
+
+Heavy & Unnecessary Background Services
+
+Hidden Maintenance Scheduled Tasks
+
+UI Animations & Windows 8 Hot Corners
 
 
+How to run
+Open a PowerShell terminal with administrative privileges.
+
+Copy and run the following universal command to launch the script directly into memory without manual file downloads: 
+`iex (New-Object Net.WebClient).DownloadString('https://github.com/FLRManu/8debloat/releases/latest/download/8Debloat.ps1')`
 
 
-![vmware_fg5AfpkuUI](https://user-images.githubusercontent.com/78772453/204083125-67233f18-1720-442e-99e3-ab025782c085.png)
+Select option 2 for English within the interactive menu.
 
-![vmware_yqo1n0Yd0W](https://user-images.githubusercontent.com/78772453/204083128-ef87a682-6eb9-4eb1-8c82-8ee7ab72bb8c.png)
+Choose individual tweaks or use option 10 to apply the entire recommended optimization cycle sequentially.
 
-![vmware_LT3Ax80q24](https://user-images.githubusercontent.com/78772453/204083130-4f15b2dd-c4e4-4762-8151-1f7095355586.png)
+Finally, you can restart your computer to fully apply all changes by running `shutdown /r /t 0`.
+
+Finally, you can restart your computer to fully apply all changes by running shutdown /r /t 0 .
